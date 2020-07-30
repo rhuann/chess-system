@@ -29,5 +29,4 @@ public class Position {
 		return row + ", " + column;
 	}
 	
-	
 }
