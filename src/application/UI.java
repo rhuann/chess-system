@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import chess.ChessMatch;
@@ -121,7 +120,7 @@ public class UI {
 		System.out.print(ANSI_WHITE);
 		System.out.println(Arrays.toString(white.toArray()));
 		System.out.print(ANSI_RESET);
-		System.out.print("White: ");
+		System.out.print("Black: ");
 		System.out.print(ANSI_YELLOW);
 		System.out.print(Arrays.toString(black.toArray()));
 		System.out.println(ANSI_RESET);
